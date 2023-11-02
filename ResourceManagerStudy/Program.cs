@@ -46,13 +46,3 @@ var spanishCulture = CultureInfo.CreateSpecificCulture("es");
 hello = resourceManager.GetString("Hello", spanishCulture);
 Console.WriteLine($"Hello using {nameof(spanishCulture)}: {hello}");
 
-
-
-return;
-
-
-// Get resource for "Hello" word, for the current culture.
-
-
-
-
